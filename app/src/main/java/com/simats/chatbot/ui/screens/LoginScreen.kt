@@ -101,7 +101,7 @@ fun LoginScreen(navController: NavController) {
                 color = Color(0xFFAB47BC),
                 fontSize = 14.sp,
                 fontWeight = FontWeight.Medium,
-                modifier = Modifier.clickable { /* Handle Forgot Password */ }
+                modifier = Modifier.clickable { navController.navigate("forgot_password") }
             )
 
             Spacer(modifier = Modifier.weight(1f))

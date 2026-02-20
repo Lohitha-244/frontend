@@ -28,6 +28,7 @@ fun AppNavigation(
 
         composable("login") { LoginScreen(navController) }
         composable("signup") { SignUpScreen(navController) }
+        composable("forgot_password") { ForgotPasswordScreen(navController) }
         composable("otp") { OTPScreen(navController) }
 
         // Main Tabs
